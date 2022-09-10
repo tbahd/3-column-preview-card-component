@@ -16,8 +16,6 @@ body{
     background: var(--Verylightgray);
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 
@@ -124,6 +122,20 @@ section{
         border-radius: 8px 8px 0 0;
     }
     .luxury{
+        border-radius: 0 0 8px 8px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    section {
+        flex-direction: column;
+    }
+
+    .sedans {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .luxury {
         border-radius: 0 0 8px 8px;
     }
 }
