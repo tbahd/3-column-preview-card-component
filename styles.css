@@ -27,9 +27,9 @@ section{
     align-items: center;
 }
 
-.box{
-    max-width: 278px;
-    max-height: 27rem;
+article{
+    max-width: 17rem;
+    height: 28rem;
     min-height: 24rem;
     padding: 1.5rem;
     position: relative;
@@ -51,18 +51,18 @@ section{
     border-radius: 0 8px 8px 0;
 }
 
-.box img{
+article img{
     margin-bottom: 2rem;
 }
 
-.box h1{
+article h1{
     color: var(--Verylightgray);
     margin-bottom: 1.8rem;
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
 }
 
-.box p{
+article p{
     color: var(--Transparentwhite);
     line-height: 1.5;
 }
@@ -112,10 +112,10 @@ section{
     section{
         flex-direction: column;
     }
-    .box{
+    article{
         padding: 2rem;
     }
-    .box h1{
+    article h1{
         margin-bottom: 1rem;
     }
     .sedans{
